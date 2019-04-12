@@ -1,0 +1,13 @@
+
+spring:
+  application:
+    name: config
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://gitee.com/zjfzwx/sc-config
+          username: 643959292@qq.com
+          password: zwx852203155
+server:
+  port: 9100
