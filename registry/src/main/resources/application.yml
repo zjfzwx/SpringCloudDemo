@@ -7,4 +7,5 @@ eureka:
   client:
     service-url:
       defaultZone: http://localhost:8761/eureka
+      #向自己注册 默认为true
     register-with-eureka: false
